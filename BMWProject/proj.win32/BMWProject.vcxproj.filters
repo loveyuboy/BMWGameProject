@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CsvData">
+      <UniqueIdentifier>{1271be4f-7e0e-4db3-a726-dc94cd47a719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CrushGame">
+      <UniqueIdentifier>{a6b4fe12-e679-4028-beb5-e05b703b7add}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CsvData\StringUtil.cpp">
+      <Filter>src\CsvData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CsvData\CsvData.cpp">
+      <Filter>src\CsvData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CsvData\CsvUtil.cpp">
+      <Filter>src\CsvData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CsvData\c_monster.cpp">
+      <Filter>src\CsvData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuUI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CrushNode.cpp">
+      <Filter>src\CrushGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CrushGrid.cpp">
+      <Filter>src\CrushGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CrushGameScene.cpp">
+      <Filter>src\CrushGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CsvData\StringUtil.h">
+      <Filter>src\CsvData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CsvData\CsvData.h">
+      <Filter>src\CsvData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CsvData\CsvUtil.h">
+      <Filter>src\CsvData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CsvData\singletonDef.h">
+      <Filter>src\CsvData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CsvData\c_monster.h">
+      <Filter>src\CsvData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuUI.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameUIMgr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CrushNode.h">
+      <Filter>src\CrushGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CrushGameMgr.h">
+      <Filter>src\CrushGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CrushGameDef.h">
+      <Filter>src\CrushGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CrushGrid.h">
+      <Filter>src\CrushGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CrushGameScene.h">
+      <Filter>src\CrushGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

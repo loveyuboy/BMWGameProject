@@ -1,0 +1,29 @@
+<Solution>
+  <PropertyGroup Name="BMWProject" Version="2.2.5.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Folder Name="MainMenu">
+          <Image Name="HelloWorld.png" />
+          <Image Name="MainMenuBG.png" />
+          <Image Name="Btn_Crush1.png" />
+          <Image Name="Btn_Crush2.png" />
+          <Image Name="Btn_Trank1.png" />
+          <Image Name="Btn_Trank2.png" />
+          <Image Name="Btn_Shoot1.png" />
+          <Image Name="Btn_Shoot2.png" />
+        </Folder>
+        <Project Name="MainMenuUI.csd" Type="Layer" />
+        <Project Name="CrushGameUI.csd" Type="Layer" />
+        <Folder Name="CrushScene">
+          <Image Name="jm_bj_2.png" />
+          <Image Name="jm_bj_1.png" />
+          <Image Name="jm_anniu3.png" />
+          <Image Name="jm_anniu1.png" />
+          <Image Name="jm_anniu2.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

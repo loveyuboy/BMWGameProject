@@ -1,0 +1,53 @@
+﻿生成启动时间为 2016/3/3 2:18:33。
+     1>项目“E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\BMWProject.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\audio\include" /I"D:\Cocos\frameworks\cocos2d-x-3.6\external" /I"D:\Cocos\frameworks\cocos2d-x-3.6\external\chipmunk\include\chipmunk" /I"D:\Cocos\frameworks\cocos2d-x-3.6\extensions" /I..\Classes /I.. /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\editor-support" /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos" /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\platform" /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\platform\desktop" /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"D:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\freetype2\include\win32\\" /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\CrushGameScene.cpp ..\Classes\CrushGrid.cpp
+         CrushGameScene.cpp
+         CrushGrid.cpp
+     1>..\Classes\CrushGrid.cpp(313): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\CrushGrid.cpp(503): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\CrushGrid.cpp(523): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\CrushGameScene.cpp(56): warning C4996: 'cocos2d::TextureCache::getInstance': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.6\cocos\renderer/CCTextureCache.h(68) : 参见“cocos2d::TextureCache::getInstance”的声明
+     1>..\Classes\CrushGameScene.cpp(112): warning C4996: 'cocos2d::ui::Text::setText': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.6\cocos\ui/UIText.h(105) : 参见“cocos2d::ui::Text::setText”的声明
+     1>..\Classes\CrushGameScene.cpp(116): warning C4996: 'cocos2d::ui::Text::setText': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.6\cocos\ui/UIText.h(105) : 参见“cocos2d::ui::Text::setText”的声明
+     1>..\Classes\CrushGameScene.cpp(123): warning C4996: 'cocos2d::String': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.6\cocos\deprecated/CCDeprecated.h(1051) : 参见“cocos2d::String”的声明
+                 d:\cocos\frameworks\cocos2d-x-3.6\cocos\deprecated/CCDeprecated.h(1051) : 参见“cocos2d::String”的声明
+     1>..\Classes\CrushGameScene.cpp(124): warning C4996: 'cocos2d::ui::Text::setText': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.6\cocos\ui/UIText.h(105) : 参见“cocos2d::ui::Text::setText”的声明
+       PreLinkEvent:
+         if not exist "E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\" mkdir "E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\"
+         xcopy /Y /Q "D:\Cocos\frameworks\cocos2d-x-3.6\prebuilt\win32\*.*" "E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\"
+         xcopy "E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\..\Resources" "E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\" /D /E /I /F /Y
+         
+         :VCEnd
+         复制了 53 个文件
+         复制了 0 个文件
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\BMWProject.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\ /LIBPATH:E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\ libcurl_imp.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib libchipmunk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\BMWProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\BMWProject.lib" /MACHINE:X86 /SAFESEH Release.win32\game.res
+         Release.win32\AppDelegate.obj
+         Release.win32\CrushGameScene.obj
+         Release.win32\CrushGrid.obj
+         Release.win32\CsvData.obj
+         Release.win32\CsvUtil.obj
+         Release.win32\c_monster.obj
+         Release.win32\StringUtil.obj
+         Release.win32\Game.obj
+         Release.win32\HelloWorldScene.obj
+         Release.win32\MainMenuUI.obj
+         Release.win32\MainScene.obj
+         Release.win32\Util.obj
+         Release.win32\CrushNode.obj
+         Release.win32\main.obj
+            正在创建库 E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\BMWProject.lib 和对象 E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\BMWProject.exp
+         正在生成代码
+         已完成代码的生成
+         BMWProject.vcxproj -> E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\Release.win32\BMWProject.exe
+     1>已完成生成项目“E:\MoneyProject\BMWGameCode\BMWProject\proj.win32\BMWProject.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.97
